@@ -1,0 +1,35 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "salam", "hey"],
+      "responses": ["Hello! Welcome to your Fitness and Workout Assistant. How can I help you train today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "allah hafiz", "thank you", "thanks"],
+      "responses": ["Goodbye! Keep pushing towards your fitness goals!", "You're welcome! Stay active and stay strong."]
+    },
+    {
+      "tag": "beginner_workout",
+      "patterns": ["Suggest a beginner home workout", "home workout", "beginner exercise"],
+      "responses": ["For a beginner home workout, try 3 sets of: 10 bodyweight squats, 5-10 push-ups, 20-second plank, and 10 walking lunges."]
+    },
+    {
+      "tag": "upper_body_workout",
+      "patterns": ["give me an upper body workout"],
+      "responses": ["2 sets inclined benchpress, 2 sets lateral raises, 2 sets triceps pushdown, 2 sets triceps overhead extension, 2 sets hammer curls, 2 sets biceps curls, 2 sets lat pulldown"]
+    },
+    {
+      "tag": "lower_body_workout",
+      "patterns": ["give me a lower body workout"],
+      "responses": ["2 sets leg press, 2 sets leg extension, 2 sets squats, 2 sets hip thrusts, 2 sets romanian deadlifts"]
+    },
+    {
+      "tag": "protein_tips",
+      "patterns": ["Which foods are high in protein?", "protein sources"],
+      "responses": ["High protein foods include chicken breast, eggs, Greek yogurt, lentils, and high-protein milk."]
+    }
+  ],
+  "fallback": "I am sorry, I did not understand that. Could you rephrase your question?"
+}
